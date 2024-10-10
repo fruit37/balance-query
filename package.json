@@ -1,0 +1,32 @@
+{
+  "name": "balance-query",
+  "version": "1.0.0",
+  "description": "a opensource script to query the balance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fruit37/balance-query.git"
+  },
+  "keywords": [
+    "ethereum",
+    "balance"
+  ],
+  "type": "module",
+  "author": "Stanley Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fruit37/balance-query/issues"
+  },
+  "homepage": "https://github.com/fruit37/balance-query#readme",
+  "dependencies": {
+    "web3": "^4.13.0"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.6.7"
+  }
+}
